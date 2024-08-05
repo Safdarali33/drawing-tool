@@ -1,5 +1,5 @@
-import { createSlice } from "@reduxjs/toolkit";
-import { MENU_ITEMS } from "@/constants";
+import { createSlice } from '@reduxjs/toolkit'
+import { MENU_ITEMS } from '@/constants'
 
 const initialState = {
     activeMenuItem: MENU_ITEMS.PENCIL,
@@ -19,6 +19,6 @@ export const menuSlice = createSlice({
     }
 })
 
-export const { menuItemClick, actionItemClick } = menuSlice.actions
+export const {menuItemClick, actionItemClick} = menuSlice.actions
 
 export default menuSlice.reducer
